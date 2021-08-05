@@ -16,8 +16,9 @@ export default function App() {
         initialRouteName={'Home'}
       >
         <Stack.Screen name='Home' component={Tabs} />
-        {/* <Stack.Screen name='about' component={Home} /> */}
-        {/* <Stack.Screen name='contact' component={Home} /> */}
+        {/* <Stack.Screen name='Consults' component={Home} /> 
+        <Stack.Screen name='Doctors' component={Home} />
+        <Stack.Screen name='Profile' component={Home} /> */}
       </Stack.Navigator>
     </NavigationContainer>
   );
